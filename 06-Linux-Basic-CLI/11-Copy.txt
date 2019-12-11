@@ -1,0 +1,8 @@
+# copy f1 to f2
+cp f1 f2
+
+# copy recursively for directories
+cp -r d1 d2
+
+# prompt before overwrite
+cp -ri d1 d2

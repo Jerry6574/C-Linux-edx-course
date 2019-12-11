@@ -1,0 +1,24 @@
+# locate a file in the entire file system
+locate <file>
+
+# update database, make locate more accurate
+updatedb
+
+# Use wildcard *. Find files that start with "a", in current directory
+echo a*
+
+# Use wildcard ?. 
+# Find files that start with "a" and exactly 3 characters in current directory
+echo a??
+
+# find file in current directory with a pattern
+find . -name "<pattern>"
+
+# redirect errors to null file
+find / -name "hello" 2> /dev/null
+
+# -i for case-insensitive
+find / -iname "*joe*" 2> /dev/null
+
+# find paths, case-insensitive
+find / -ipath "*joe*" 2> /dev/null

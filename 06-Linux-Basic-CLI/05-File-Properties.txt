@@ -1,0 +1,13 @@
+# print attributes of a file
+file <file>
+
+# create a file named "f" with nano
+nano f
+
+# print absolute path of a file
+realpath <file>
+
+# print absolute path of an executable
+which <executable>
+
+

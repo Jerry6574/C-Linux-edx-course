@@ -1,0 +1,7 @@
+# Interactive commands usually need q, ^x or ^c to exit
+
+# display process activity. 
+top
+
+# same as top, but prettier
+htop

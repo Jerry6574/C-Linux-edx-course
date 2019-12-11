@@ -1,0 +1,21 @@
+1. File system is organized as tree. 
+
+2. "./" root of Linux filesystem.
+
+3. "/bin" directory containing executable files, aka binary
+
+4. "/sbin" superuser binary
+
+5. "/home" containing user info
+
+6. "/etc" containing configuration files, stands editable text configuration
+
+7. "/lib" library softwares for "/bin" and "/sbin"
+
+8. "/tmp" temporary directory, all content destroyed after restart
+
+9. "/var" files used by the OS, databases, logs, email boxes, etc
+
+10. "/usr" Unix System Resources, extend the capability of a minimal system. 
+
+11. "/dev" devices 

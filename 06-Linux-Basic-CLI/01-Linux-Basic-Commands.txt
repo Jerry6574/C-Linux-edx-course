@@ -1,0 +1,70 @@
+# 1. Linux CLI command signature.
+
+# options and files_or_data are optional.
+# name of command is a software application: 
+# OS command or other software applications.
+<command> <option> <files_or_data>
+
+# E.g.
+# display calender
+cal
+
+# display calender in Julian days
+cal -j
+
+
+
+# 2. First Commands
+
+# display username with current user ID
+whoami
+
+# display help (how-to use) for a command, only valid for webLinux
+<command> --help
+
+# display mannual for a command, for actual Linux
+man <command>
+
+# E.g.
+whoami --help
+
+# display user ID, groud ID and groups
+id 
+
+# display name of current user
+logname
+
+# prints content in <text>
+echo <text>
+
+# display interpreter of the CLI -> shell
+echo $0
+
+# display name of computer
+hostname
+
+# display name of OS
+uname
+
+# print all
+uname -a 
+
+# display command history
+history
+
+
+# clear all commands
+clear
+
+# display how much time since system was booted
+uptime
+
+# display date of today
+date
+
+# display only time
+date +"%T"
+
+# dispplay day of the week, day of the month, month, year
+date +"%A %d %B %Y"
+

@@ -1,0 +1,28 @@
+# create file
+touch <file>
+
+# create file "my" and file "file"
+touch my file
+
+# create file named "my file"
+touch my\ file
+touch 'my file'
+
+# remove file
+rm <file>
+
+# rm file named "my file"
+rm my\ file
+rm 'my file'
+
+# those punctuations need closing counterpart, otherwise shell expects more input
+# or use ^D to terminate the input
+'
+(
+"
+[
+{
+
+# better not to use space in filename, use _ instead
+touch my_file
+

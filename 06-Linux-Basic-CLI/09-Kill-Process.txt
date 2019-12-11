@@ -1,0 +1,2 @@
+# kill a program or process if it's unresponsive or you don't know how to exit
+htop -> F9 -> SIGKILL

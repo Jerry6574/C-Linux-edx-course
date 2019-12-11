@@ -1,0 +1,34 @@
+# print working directory
+pwd
+
+# list all files and directories in working directory
+ls
+
+# list all files and directories in working directory include hidden files
+# name of hidden files start with "."
+ls -a
+
+# more details
+ls -al
+
+# change directory
+cd <dir>
+
+# go to home directory
+cd
+
+# go to parent directory of working directory
+cd ..
+
+# go to parent directory of working directory, then navigate from there
+cd ../home/user
+
+# go to parent of parent of working directory
+cd ../..
+
+# relative path, "." represent current working directory
+cd ./sys
+cd sys
+
+# absolute path, start with "/" root
+cd /sys

@@ -1,0 +1,29 @@
+# output "hello world" to file2.txt
+echo "hello world" > file2.txt
+
+# print the content of file2.txt to shell
+cat file2.txt
+
+# redirect content of file2.txt to file3.txt, effectively copy file
+cat file2.txt > file3.txt
+
+# create an empty file named anotherfile.txt, 
+# then provide content to the file, 
+# press ^D twice to terminate input
+cat > anotherfile.txt
+
+# use content of /etc/services as input to command "more"
+# scroll line by line with Enter key
+# exit with q
+cat /etc/services | more
+
+# use content of /etc/services as input to command "less"
+# scroll line by line arrow keys
+# scroll page by page with spacebar
+# exit with q
+# /: foward search
+# ?: backward search
+# N: previous match
+# n: next match
+# -NM flag for line number and percentage of the file
+cat /etc/services | less

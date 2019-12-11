@@ -1,0 +1,17 @@
+# make directory
+mkdir <dir>
+
+# make multiple directories at the current directory
+mkdir <dir1> <dir2> <dir3>
+
+# make a multi-level directory
+mkdir -p <dir1>/<dir2>/<dir3>
+
+# recursively delete files in a directory and files in its subdirectories
+rm -r <dir>
+
+# require yes/no for deletion of every item
+rm -ri <dir>
+
+# answer yes for deletion automatically
+yes | rm -ri <dir>

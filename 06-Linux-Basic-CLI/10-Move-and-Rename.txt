@@ -1,0 +1,9 @@
+# move/rename <file/dir> into/to <dir>
+mv <file/dir> <dir>
+
+# if both f1 and f2 exist and in same directory, 
+# content of f1 will be overwritten to f2
+mv f1 f2
+
+# -i to prompt before overwrite
+mv -i <file/dir> <dir>
